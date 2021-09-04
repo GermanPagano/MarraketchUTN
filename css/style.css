@@ -1,0 +1,178 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500&display=swap');
+body {
+    font-family: "hind", sans-serif !important;
+    overflow-x: hidden;
+}
+
+/*COLORES PERSONALIZADOS*/
+.colorPrincipal{
+   color: #F3954C   !important;
+}
+.gristopoColor{
+    color: #999999 ;
+}
+.blanco{
+    color: #Fff;
+}
+/*fondos personalizados */
+.gristopo{
+    background-color: #999999 ;
+}
+.colorPrincipalFondo{
+    background-color: #F3954C   !important;
+ }
+/*===================NAVBAR==========================*/
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+#menu a{
+    color:#999999
+}
+
+#navbarSupportedContent ul li a:hover{
+    color: #F3954C  ;
+}
+
+/*===================CARRUSEL==========================*/
+.carousel-inner {
+    max-height:39rem !important;
+}
+@media (max-width: 576px) {
+
+}
+/*===================SECCION INICIO ==========================*/
+
+#btn:hover{
+    background-color: #ccc !important;
+}
+.carta:hover { filter: blur(1px); -webkit-filter: blur(1px); }
+
+
+#img-equipo{
+    max-height:30rem !important;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+
+}
+#img-equipo:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+/*===================SECCION galeria ==========================*/
+.gallery{
+    background-color: #DDFCFE;
+    padding: 80px 0px;
+}
+
+.gallery img {
+    background-color: #Fff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+/* .gallery div {
+    height: 100%;
+} */
+#gallery-modal .modal-img{
+
+width: 100%;
+
+}
+/*===================SECCION CONTACTO ==========================*/
+
+
+/*===================SECCION FOOTER ==========================*/
+
+
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#FFF;
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+ @media (max-width:1200px){
+
+    .carousel-inner {
+        max-height:20rem !important;
+    }
+
+/*     #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;
+   }
+ */
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    .carousel-inner {
+        max-height:20rem !important;
+    }
+
+    #img-equipo{
+        max-height:25rem !important;
+    }
+
+
+/*     #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    } */
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+
+    .carousel-inner {
+        max-height:20rem !important;
+    }
+
+    #img-equipo{
+        max-height:20rem !important;
+    }
+
+
+}
